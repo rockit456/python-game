@@ -1,2 +1,1 @@
-#READ ME
-This is a readme file
+This game should let you place one black circle wherever you click! Hopefully it works...
