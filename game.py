@@ -1,5 +1,5 @@
-print("hello world")
+import pygame as pyg
 
-print("Youre stupid eli")
-
-print("youre stupid zane!")
+size = (500, 400)
+pyg.display.set_mode(size)
+pyg.init()
