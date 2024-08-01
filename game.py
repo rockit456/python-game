@@ -1,14 +1,14 @@
 import pygame as pyg
 
+# Initialize pygame
+pyg.init()
+
 # Screen size
 size = (500, 400)
 
 # Create the screen and change the color with the Fill function
 screen = pyg.display.set_mode(size)
 screen.fill(pyg.Color(255, 255, 0, 50))
-
-# Initialize pygame
-pyg.init()
 
 # Start a loop that will run forever since we don't want to game to stop unless it is forced to
 while True:
@@ -23,3 +23,5 @@ while True:
 
             # Draw the circle
             pyg.draw.circle(screen, (0, 0, 0), mouse_position, circle_thickness, border_thickness)
+        if (event == pyg.K_q):
+            quit()
