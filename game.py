@@ -4,7 +4,7 @@ import pygame as pyg
 pyg.init()
 
 # Screen size
-size = (1000, 800)
+size = (800, 600)
 
 # Create the screen and change the color with the Fill function
 screen = pyg.display.set_mode(size)
